@@ -1,5 +1,5 @@
 import type { ContactInfo } from '../types/content';
-import IceCreamLogo from '../assets/Ice Cream (3).png';
+import IceCreamLogo from '../assets/Ice Cream (2).gif';
 
 type SiteFooterProps = {
   contact: ContactInfo;

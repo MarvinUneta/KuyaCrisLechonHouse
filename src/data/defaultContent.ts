@@ -66,8 +66,8 @@ export const defaultContent: SiteContent = {
     },
   ],
   contact: {
-    phone: '+63 917 555 6678',
-    email: 'bookings@maviroast.co',
+    phone: '+63 929 377 2489',
+    email: 'kuyacrislechonhouse@gmail.com',
     location: '36 F. Oldan St., Brgy. Mayamot, Antipolo City',
     responseTime: 'Replies within 1 business day',
   },
