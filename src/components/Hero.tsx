@@ -1,3 +1,4 @@
+import React from 'react';
 import type { HeroContent } from '../types/content';
 import lechonHeroImage from '../assets/lechon.jpg';
 

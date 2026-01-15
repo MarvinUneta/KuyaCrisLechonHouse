@@ -1,3 +1,4 @@
+import React from 'react';
 import type { ServiceOffering, MenuItem } from '../types/content';
 
 const gridContainer: React.CSSProperties = {
