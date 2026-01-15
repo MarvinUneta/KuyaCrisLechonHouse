@@ -1,5 +1,5 @@
 import type { ContactInfo } from '../types/content';
-import IceCreamLogo from '../assets/Ice Cream (2).gif';
+import IceCreamLogo from '../assets/01.png';
 
 type SiteFooterProps = {
   contact: ContactInfo;
@@ -10,7 +10,7 @@ export const SiteFooter = ({ contact }: SiteFooterProps) => (
     <div className="site-footer__content">
       <div className="site-footer__brand">
         <img src={IceCreamLogo} alt="MRVS Logo" className="site-footer__logo" />
-        <p>Kuya Cris Lechon House</p>
+        <p className="site-footer__brand-text">Kuya Cris Lechon House</p>
       </div>
       <div className="site-footer__contact">
         <a href={`tel:${contact.phone}`}>{contact.phone}</a>

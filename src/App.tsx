@@ -10,20 +10,15 @@ function App() {
   const { content } = useSiteContent();
 
   return (
-    <div className="landing-page">
+    <>
       <NavigationBar />
-      
-      <div className="landing-page">
+      <main>
         <Hero hero={content.hero} />
-
-        <main>
-          <BenefitsSection services={content.services} menu={content.menu} />
-          <TestimonialsSection testimonials={content.testimonials} />
-        </main>
-        
-        <SiteFooter contact={content.contact} />
-      </div>
-    </div>
+        <BenefitsSection services={content.services} menu={content.menu} />
+        <TestimonialsSection testimonials={content.testimonials} />
+      </main>
+      <SiteFooter contact={content.contact} />
+    </>
   );
 }
 
