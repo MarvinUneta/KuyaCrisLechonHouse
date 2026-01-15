@@ -93,6 +93,7 @@ export const defaultContent: SiteContent = {
     email: 'kuyacrislechonhouse@gmail.com',
     location: '36 F. Oldan St., Brgy. Mayamot, Antipolo City',
     responseTime: 'Replies within 1 business day',
+    facebook: 'https://www.facebook.com/kuyacrislechon',
   },
   highlights: {
     nextMenuRefresh: '2025-02-15',

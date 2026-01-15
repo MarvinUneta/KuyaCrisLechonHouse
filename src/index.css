@@ -180,7 +180,7 @@ h2 {
   flex-direction: column;
   gap: 0.5rem;
   opacity: 0.8;
-  text-align: right;
+  align-items: flex-end;
 }
 
 .site-footer__contact a {
@@ -192,6 +192,12 @@ h2 {
 .site-footer__contact a:hover {
   opacity: 1;
   color: #ffb47b;
+}
+
+.site-footer__facebook-link {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
 }
 
 .site-footer__copyright {

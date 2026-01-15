@@ -32,6 +32,7 @@ export type ContactInfo = {
   email: string;
   location: string;
   responseTime: string;
+  facebook: string;
 };
 
 export type Highlights = {
